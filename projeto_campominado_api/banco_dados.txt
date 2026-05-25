@@ -1,0 +1,16 @@
+-- Campo Minado - Scripts MySQL (Beekeeper / phpMyAdmin)
+-- XAMPP: usuário root, senha vazia, host localhost
+
+CREATE DATABASE IF NOT EXISTS campo_minado
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+USE campo_minado;
+
+CREATE TABLE IF NOT EXISTS partidas (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome_jogador VARCHAR(100) NOT NULL,
+  pontuacao INT NOT NULL DEFAULT 0,
+  data_partida DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_data_partida (data_partida DESC)
+);

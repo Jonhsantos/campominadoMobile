@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Campo Minado</string>
+    <string name="titulo_campo_minado">Campo Minado</string>
+    <string name="informe_seu_nome">Informe seu nome para começar</string>
+    <string name="nome_jogador">Nome do jogador</string>
+    <string name="entrar">Entrar</string>
+    <string name="erro_nome_vazio">Digite seu nome para continuar</string>
+    <string name="jogador_label">Jogador: %1$s</string>
+    <string name="menu_principal">Menu principal</string>
+    <string name="jogar">Jogar</string>
+    <string name="historico_partidas">Histórico de partidas</string>
+    <string name="toque_revelar">Toque para revelar · Pressione longo para bandeira</string>
+    <string name="pontuacao_atual">Pontuação: %1$d</string>
+    <string name="novo_jogo">Novo jogo</string>
+    <string name="voltar_menu">Voltar ao menu</string>
+    <string name="voltar">Voltar</string>
+    <string name="vitoria">Vitória!</string>
+    <string name="derrota">Derrota</string>
+    <string name="msg_vitoria">Parabéns! Pontuação final: %1$d</string>
+    <string name="msg_derrota">Você acertou uma mina. Pontuação final: %1$d</string>
+    <string name="sem_partidas">Nenhuma partida encontrada</string>
+    <string name="pontuacao_item">Pontuação: %1$d pts</string>
+    <string name="erro_salvar_partida">Não foi possível salvar a partida no servidor</string>
+    <string name="erro_carregar_historico">Erro ao carregar histórico</string>
+    <string name="erro_conexao">Erro de conexão: %1$s</string>
+</resources>

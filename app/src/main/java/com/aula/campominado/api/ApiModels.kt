@@ -10,18 +10,18 @@ data class ApiResponse<T>(
 
 data class Partida(
     val id: Int?,
-    @SerializedName("nome_jogador") val nomeJogador: String,
+    val jogador: String,
     val pontuacao: Int,
     @SerializedName("data_partida") val dataPartida: String?
 )
 
 data class SalvarPartidaRequest(
-    @SerializedName("nome_jogador") val nomeJogador: String,
+    val jogador: String,
     val pontuacao: Int
 )
 
 data class PartidaSalva(
     val id: Int?,
-    @SerializedName("nome_jogador") val nomeJogador: String,
+    val jogador: String,
     val pontuacao: Int
 )

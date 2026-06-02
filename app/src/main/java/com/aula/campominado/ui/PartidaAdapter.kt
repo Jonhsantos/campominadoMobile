@@ -36,7 +36,7 @@ class PartidaAdapter : RecyclerView.Adapter<PartidaAdapter.PartidaViewHolder>() 
     ) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(partida: Partida) {
-            binding.tvItemNome.text = partida.nomeJogador
+            binding.tvItemNome.text = partida.jogador
             binding.tvItemPontuacao.text =
                 binding.root.context.getString(
                     com.aula.campominado.R.string.pontuacao_item,

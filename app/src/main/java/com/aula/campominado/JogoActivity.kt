@@ -185,7 +185,7 @@ class JogoActivity : AppCompatActivity() {
         partidaSalva = true
 
         ApiClient.api.salvarPartida(
-            body = SalvarPartidaRequest(nomeJogador, pontuacao)
+            body = SalvarPartidaRequest(jogador = nomeJogador, pontuacao = pontuacao)
         ).enqueue(object : Callback<com.aula.campominado.api.ApiResponse<com.aula.campominado.api.PartidaSalva>> {
             override fun onResponse(
                 call: Call<com.aula.campominado.api.ApiResponse<com.aula.campominado.api.PartidaSalva>>,
